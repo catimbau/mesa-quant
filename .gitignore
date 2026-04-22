@@ -22,3 +22,6 @@ logs/
 *.egg
 build/
 dist/
+
+# Contexto local do Claude Code (nao versionar)
+CLAUDE.md
