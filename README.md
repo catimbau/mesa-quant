@@ -5,7 +5,7 @@ Mini mesa de trading quantitativo focada em mercados americanos: Ações, Opçõ
 ## 🏗️ Arquitetura
 
 ```
-Ubuntu Server
+Server
 ├── Coleta de Dados     → IB TWS API + CCXT
 ├── Banco de Dados      → TimescaleDB (PostgreSQL)
 ├── Backtesting         → VectorBT
