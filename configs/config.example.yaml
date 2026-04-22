@@ -1,0 +1,31 @@
+# ==============================================
+# Mesa Quant — Configuração
+# Copie para config.yaml e preencha os valores
+# ==============================================
+
+interactive_brokers:
+  host: "127.0.0.1"
+  port: 7497          # 7497=TWS paper | 7496=TWS live | 4002=Gateway paper | 4001=Gateway live
+  client_id: 1
+  account: "DU000000"
+
+database:
+  host: "localhost"
+  port: 5432
+  name: "mesa_quant"
+  user: "quant"
+  password: "CHANGE_ME"
+
+crypto:
+  exchange: "binance"
+  api_key: "CHANGE_ME"
+  api_secret: "CHANGE_ME"
+
+risk:
+  max_position_size: 0.05
+  max_drawdown_pct: 0.10
+  max_daily_loss_pct: 0.02
+
+logging:
+  level: "INFO"
+  file: "logs/mesa_quant.log"
