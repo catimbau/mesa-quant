@@ -16,3 +16,9 @@ logs/
 .vscode/
 .idea/
 .DS_Store
+
+# Setuptools / pip install -e
+*.egg-info/
+*.egg
+build/
+dist/
