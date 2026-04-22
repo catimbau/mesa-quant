@@ -1,0 +1,8 @@
+market-seasonality-analyzer/       <-- Nome do Projeto
+├── .venv/                         <-- Seu ambiente virtual
+├── data/                          <-- Onde você guarda CSVs (se houver)
+├── notebooks/                     <-- Seus testes e rascunhos (.ipynb)
+├── src/                           <-- O código principal do app
+│   └── app.py                     <-- O arquivo do Streamlit
+├── requirements.txt               <-- Lista das bibliotecas (pip freeze)
+└── README.md                      <-- A "capa" do seu projeto
