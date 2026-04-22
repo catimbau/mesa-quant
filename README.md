@@ -70,4 +70,9 @@ cp configs/config.example.yaml configs/config.yaml
 
 ## 📄 Licença
 
-Privado — uso pessoal.
+MIT License — veja [LICENSE](LICENSE) para detalhes.
+
+## 🤝 Contribuições
+
+Projeto pessoal de aprendizado em quant trading. 
+Issues e sugestões são bem-vindas!
